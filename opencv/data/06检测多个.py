@@ -5,7 +5,7 @@ import cv2 as cv
 # 定义检测函数
 def face_detect_demo():
     gary = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-    face_detect = cv.CascadeClassifier(r'D:\DownLoad\opencv\sources\data\haarcascades\haarcascade_frontalface_alt2.xml')
+    face_detect = cv.CascadeClassifier('../haarcascades/haarcascade_frontalface_alt2.xml')
     # 方法参数解释
     # image:传入的图片
     # scaleFactor: 每次循环缩放的比例

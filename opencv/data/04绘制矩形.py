@@ -10,9 +10,9 @@ cv.rectangle(img, (x, y, x + w, y + h), color=(0, 0, 255), thickness=1)
 # 绘制圆形
 cv.circle(img, center=(x + w, y + h), radius=100, color=(255, 0, 0), thickness=2)
 # 显示
-cv.imshow('re_img',img)
+cv.imshow('re_img', img)
 while True:
     if ord('q') == cv.waitKey(0):
         break
-#释放内存
+# 释放内存
 cv.destroyAllWindows()
